@@ -16,6 +16,9 @@ function createMap(bikeStations) {
     "Bike Stations": bikeStations
   };
 
+  console.log(bikeStations);
+  console.log(streetmap);
+
   // Create the map object with options.
   var map = L.map("map-id", {
     center: [40.73, -74.0059],
